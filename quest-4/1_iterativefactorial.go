@@ -18,7 +18,7 @@ func iterativefactorial(num int) int {
 }
 
 func main() {
-	a := iterativefactorial(5)
+	a := iterativefactorial(4)
 	fmt.Println(a)
 	b := iterativefactorial(10)
 	fmt.Println(b)

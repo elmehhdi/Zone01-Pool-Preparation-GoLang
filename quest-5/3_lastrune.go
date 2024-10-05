@@ -12,10 +12,10 @@ func lastrune(s string) rune {
 	length := len(s)
 
 	// nholdiw l charactere tali f la variable (ndiro -1 la7e9ach 0 indexing)
-	lastCharacter := s[length-1]
+	lastcharacter := s[length-1]
 
 	// nconvertewha l rune w nreturniwha (la valeur li f la variable)
-	return rune(lastCharacter)
+	return rune(lastcharacter)
 }
 
 func main() {

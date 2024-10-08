@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func isalpha(s string) bool {
+func isupper(s string) bool {
 	// n'loopiw 3la ga3 les charactere f string
 	for _, char := range s {
 		// // ila kan char chi 7aja men ghir A l Z n'returniw false
@@ -16,10 +16,10 @@ func isalpha(s string) bool {
 }
 
 func main() {
-	x := isalpha("ABC")
+	x := isupper("ABC")
 	fmt.Println(x)
-	y := isalpha("ABcde")
+	y := isupper("ABcde")
 	fmt.Println(y)
-	z := isalpha("A123")
+	z := isupper("A123")
 	fmt.Println(z)
 }
